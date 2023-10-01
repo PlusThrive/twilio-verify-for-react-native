@@ -21,5 +21,8 @@ export { ChallengeList, Metadata } from './models/ChallengeList';
 export { PushFactorPayload } from './models/PushFactorPayload';
 export { VerifyPushFactorPayload } from './models/VerifyPushFactorPayload';
 export { UpdatePushFactorPayload } from './models/UpdatePushFactorPayload';
-export { ChallengeListPayload, ChallengeListOrder } from './models/ChallengeListPayload';
+export {
+  ChallengeListPayload,
+  ChallengeListOrder,
+} from './models/ChallengeListPayload';
 export { UpdatePushChallengePayload } from './models/UpdatePushChallengePayload';

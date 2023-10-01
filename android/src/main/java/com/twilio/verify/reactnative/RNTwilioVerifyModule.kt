@@ -94,6 +94,8 @@ class RNTwilioVerifyModule(
             updateFactorPayload.getStringValue("sid"),
             updateFactorPayload.getOptStringValue("pushToken")
           ), { promise.resolve(toReadableMap(it)) }, { promise.reject(it) })
+
+      else -> {}
     }
   }
 
@@ -146,6 +148,8 @@ class RNTwilioVerifyModule(
             { promise.resolve(null) },
             { exception -> promise.reject(exception) })
         }
+
+      else -> {}
     }
   }
 
